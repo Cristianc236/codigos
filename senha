@@ -1,0 +1,8 @@
+senha = int(input("digite uma senha"))
+repita = int(input("digite novamente"))
+while senha!= repita:
+	print("senha incorreta digite novamente")
+	repita = int(input("digite uma senha"))
+if senha == repita:
+	print("parabens vc entrou seja ben vindo")
+	

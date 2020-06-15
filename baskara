@@ -1,0 +1,11 @@
+a = float(input("digite um valor para A"))
+b = float(input("digite um valor para B"))
+c = float(input("digite um valor para C"))
+delta = (b**2)-(4*a*c)
+raiz1 = (-b+ delta)/(2*a)
+raiz2 = (-b- delta)/(2*a)
+if delta<=5: 
+   print (raiz1)
+   print (raiz2)
+else:
+      print ("Impossível calcular")

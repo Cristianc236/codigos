@@ -1,0 +1,10 @@
+nome = input("digite seu nome: ")
+av1=int (input("digite a nota da sua av1: "))
+av2= int (input("digite a nota da av2:  "))
+media = (av1+av2)/2
+if media > 9.5:
+	print (nome,media,"aprovado com louvor")
+if media < 9.5 and media>5 :
+	print(nome,media,"aprovado")
+if media < 5:
+	print(nome,media,"reprovado av3")

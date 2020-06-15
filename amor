@@ -1,0 +1,25 @@
+print ("bora brincar seu amor eh?")
+print("\n")
+nome= input("diga o nome do seu amor =  ")
+print("\n")
+print("bora testar o quanto vc ama",nome)
+print("digite 1")
+print ("digite 2")
+print("digite 3")
+numero=int(input("digite seu numero"))
+
+if (numero ==1 ):
+ print ("olha vc me escolheu obrigado")
+ print("sabia que tem uma pessoa que loucamente apaixonada por vc que ama vc de uma tal forma que vc jamais vai entender")
+if (numero==2 ):
+	print("ola parabens")
+	print(" Com todas as pessoas nesser mundo foi vc a escolhida para ser meu mundo por muitos anos te amo")
+if (numero==3):
+	print ("Que amor!")
+	print ("vc eh a razao de alguem sorrir viva todos os dias mais sorria pois sua felicidade eh a dadiva mais linda ")
+if(numero >=3):
+	print("digitou errado volte ao inicio")
+	
+
+ 
+	

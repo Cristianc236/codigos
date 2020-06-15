@@ -1,0 +1,7 @@
+nome= input("digite seu nome")
+quantidade = int(input("digite a quantidade de amor"))
+print(" nome do meu amor ",nome,"a quantidade de vezes que a amo e ",quantidade)
+if(quantidade >=10 ):
+  print("uhulll te amo pra caralho")
+else:
+   print("poxa amor so isso ")
